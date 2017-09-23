@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="71px" viewBox="0 0 63 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 12 Copy 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1193.81838,108.672189 C1179.26351,106.86328 1168,94.469587 1168,79.4496507 C1168,63.1850577 1181.2076,50 1197.5,50 C1213.7924,50 1227,63.1850577 1227,79.4496507 C1227,94.3280533 1215.94776,106.629474 1201.59219,108.618239 L1198.08037,116 L1193.81838,108.672189 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BLOQUE-SERVICIOS-CLARO" transform="translate(-1166.000000, -48.000000)">
+            <g id="Oval-12-Copy-6">
+                <use stroke="#4CBAFF" stroke-width="2.7" xlink:href="#path-1"></use>
+                <use stroke="#979797" stroke-width="0.9" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

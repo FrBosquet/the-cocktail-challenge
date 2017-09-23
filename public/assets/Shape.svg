@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="11px" viewBox="0 0 15 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LG-(-1050-)" transform="translate(-121.000000, -288.000000)" fill="#FD935C">
+            <g id="Group-Copy-9" transform="translate(102.000000, 264.000000)">
+                <path d="M32.7713025,24.5372998 C32.0549028,23.8209001 30.8936528,23.8209001 30.1771054,24.5372998 L24.1440717,30.5706289 L22.1372957,28.563853 C21.8047291,28.2312863 21.3452523,28.0254821 20.8377594,28.0254821 C19.8227737,28.0254821 19,28.8482558 19,29.8632415 C19,30.3713253 19.2062475,30.8312454 19.5395528,31.1639597 L22.842467,34.466874 L22.8461606,34.4625894 C23.5624125,35.1791369 24.7236625,35.1791369 25.4400622,34.4625894 L32.7713025,27.1316446 C33.4877022,26.4156882 33.4878499,25.2536994 32.7713025,24.5372998 L32.7713025,24.5372998 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
