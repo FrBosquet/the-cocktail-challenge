@@ -1,4 +1,18 @@
-@import './style/config/colors';
-@import './style/config/images';
+@import './style/0 config/global';
+@import './style/0 config/fonts';
+@import './style/0 config/colors';
+@import './style/0 config/images';
+@import './style/0 config/gaps';
+@import './style/0 config/aux';
 
-@import './style/atoms/sections';
+@import './style/1 atoms/sections';
+@import './style/1 atoms/embedding';
+
+@import './style/2 molecules/dropdown';
+@import './style/2 molecules/item';
+@import './style/2 molecules/button';
+@import './style/2 molecules/options';
+@import './style/2 molecules/motto';
+
+@import './style/3 organisms/header';
+@import './style/3 organisms/hero';

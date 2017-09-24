@@ -1,0 +1,13 @@
+.left-separator{
+  border-left: 2px solid $color-lightblue;
+}
+
+.right-separator{
+  border-right: 2px solid $color-lightblue;
+}
+
+.occluder{
+  background-color: transparentize($color-blue, 0.05);
+  padding: $gap-big;
+  width: 100%;
+}

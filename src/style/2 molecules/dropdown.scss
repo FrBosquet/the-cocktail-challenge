@@ -1,0 +1,10 @@
+.dropdown{
+  display: inline-block;
+  font-family: 'NovaRegular';
+  text-transform: uppercase;
+
+  &:after{
+    content: url('/public/images/Path 93 Copy 22.svg');
+    margin: $gap-min;
+  }
+}
