@@ -1,0 +1,51 @@
+.tab{
+  margin-top: $gap-medium;
+
+  div{
+    background-color: $color-paleblue;
+    display: inline-block;
+    font-family: 'NovaRegular';
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: translateY($gap-big);
+    padding: $gap-small $gap-big $gap-small $gap-medium;
+
+    img{
+      height: 30px;
+    }
+
+    &:not(:first-child){
+      margin-left: -2px;
+    }
+
+    &.selected{
+      color: $color-pastelblue;
+      background-color: $color-dirtyblue;
+
+      &::before{
+        content: "";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: $gap-small;
+        background-color: $color-darkblue;
+        transform: translate(-$gap-medium,-$gap-medium);
+      }
+
+      &::after{
+        background-color: $color-bone;
+        border: 5px solid $color-darkblue;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 2px;
+        content: "";
+        display: block;
+        height: 20px;
+        position: absolute;
+        width: 20px;
+        transform: translate(75px, $gap-min) rotate(45deg);
+      }
+    }
+
+  }
+}
