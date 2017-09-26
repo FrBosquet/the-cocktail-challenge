@@ -1,3 +1,44 @@
 .spec{
   text-align: center;
+  padding: $gap-medium;
+  padding-bottom: $gap-big;
+
+  .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    img{
+      position: absolute;
+
+      &:first-child{
+        transform: translateY(6px);
+      }
+    }
+
+  }
+
+  h4{
+    text-transform: capitalize;
+  }
+
+  p{
+    height: 3em;
+    text-overflow: ellipsis;
+  }
+
+  a{
+    display: block;
+    height: 1.5em;
+    text-overflow: ellipsis;
+    margin-bottom: $gap-small;
+  }
+
+  button{
+    background-color: $color-bone;
+    border-color: $color-pastelblue;
+    border-radius: $gap-min;
+    color: $color-blue;
+  }
 }

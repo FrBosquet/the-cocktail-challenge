@@ -7,10 +7,10 @@
 
 @import './style/1 atoms/sections';
 @import './style/1 atoms/embedding';
+@import './style/1 atoms/forms';
 
 @import './style/2 molecules/dropdown';
 @import './style/2 molecules/item';
-@import './style/2 molecules/button';
 @import './style/2 molecules/options';
 @import './style/2 molecules/motto';
 @import './style/2 molecules/spec';
@@ -19,4 +19,5 @@
 @import './style/3 organisms/header';
 @import './style/3 organisms/hero';
 @import './style/3 organisms/pane';
-@import './style/3 organisms/specs';
+@import './style/3 organisms/company-specs';
+@import './style/3 organisms/company-description';

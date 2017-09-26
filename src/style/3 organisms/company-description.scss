@@ -1,0 +1,37 @@
+.or-company-description{
+  padding: $gap-big;
+  text-align: center;
+
+  section{
+    font-family: 'NovaRegular';
+    padding: $gap-medium;
+
+    button{
+      background-color: $color-bone;
+      border: none;
+      border-radius: $gap-small;
+      color: $color-grey;
+      font-weight: bold;
+
+      &.selected{
+        background-color: $color-pastelblue;
+        color: white;
+
+        &::after{
+          background-color: $color-pastelblue;
+          content: "";
+          display: block;
+          height: 16px;
+          position: absolute;
+          transform: translate(3px, 0px) rotate(45deg) skew(20deg, 20deg);
+          width: 16px;
+          z-index: -100;
+        }
+      }
+    }
+  }
+
+  h4{
+    margin-top: $gap-medium;
+  }
+}
