@@ -23,4 +23,6 @@ $(document).ready(()=>{
   fillClass('.rnd-spec-desc')
   fillClass('.rnd-spec-link', 3, 5)
   fillClass('.rnd-comp-desc', 20)
+  fillClass('.rnd-link', 3, 10)
+  
 })

@@ -1,3 +1,23 @@
 img{
   margin: $gap-small;
 }
+
+.at-check{
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  display: block;
+  margin: $gap-medium auto;
+  height: 25px;
+  width: 25px;
+  z-index: 100;
+
+  &.green{
+    background-color: $color-green;
+    background-image: $img-check;
+  }
+  &.red{
+    background-color: $color-red;
+    background-image: $img-cross;
+  }
+}

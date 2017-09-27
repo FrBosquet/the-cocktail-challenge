@@ -1,3 +1,27 @@
 .or-company-services{
+  text-align: center;
 
+  .row{
+    padding: $gap-medium $gap-humungous;
+  }
+
+  .underline{
+    background-color: $color-grey;
+    transform: translate(0, 181px);
+    margin: 0 auto;
+    height: 2px;
+    width: unquote("calc(100% - 240px)");
+    z-index: -100;
+
+    @media (min-width: 768px){
+      width: 480px;
+    }
+    @media (min-width: 992px){
+      width: 630px;
+
+    }
+    @media (min-width: 1200px){
+      width: 760px;
+    }
+  }
 }

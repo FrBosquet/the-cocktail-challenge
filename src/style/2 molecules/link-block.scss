@@ -1,0 +1,20 @@
+.ml-link-block{
+  padding: $gap-small;
+  width: 200px;
+  float: left;
+  height: 250px;
+
+  h4, span{
+    width: unquote("calc(100% - 2 * #{$gap-small} )");
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+    margin-bottom: $gap-small;
+    white-space: nowrap;
+  }
+
+  h4{
+    color: $color-lightblue;
+    text-transform: uppercase;
+  }
+}

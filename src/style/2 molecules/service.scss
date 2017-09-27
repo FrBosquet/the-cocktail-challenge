@@ -1,0 +1,16 @@
+.ml-service{
+
+  figure{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p{
+    padding: $gap-medium;
+    height: 4em;
+    overflow: hidden;
+  }
+
+}

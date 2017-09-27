@@ -1,7 +1,12 @@
 h1{
-  font-size: 3.5em; 
+  font-size: 3.5em;
 }
 
 header{
   background-color: $color-blue;
+}
+
+.at-tooltip{
+  position: absolute;
+  display: block;
 }

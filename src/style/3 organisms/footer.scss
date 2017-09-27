@@ -1,0 +1,13 @@
+.or-footer{
+  background-color: $color-grey;
+
+  div{
+    height: 100px;
+
+    &.col-xs-3{
+      background-color: $color-bone;
+
+    }
+  }
+
+}

@@ -1,0 +1,13 @@
+.or-links{
+  .links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    overflow-x: auto;
+  }
+  .item{
+    span{
+      color: $color-grey;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.or-company-contact{
+  margin: $gap-big 0;
+
+  .phones{
+    border: 2px solid $color-bone;
+    border-radius: 2px;
+    color: $color-grey;
+    display: inline-block;
+    padding: $gap-small $gap-medium;
+  }
+
+  .badges{
+    padding: $gap-small $gap-medium;
+    text-align: right;
+
+    .badge{
+      border-radius: 50%;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: $color-grey;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 25px;
+      margin-left: $gap-small;
+
+
+      &.twitter{
+        background-color: $color-lightblue;
+        background-image: url("/public/images/twitter-logo-silhouette.svg");
+      }
+      &.facebook{
+        background-image: url("/public/images/facebook-app-symbol.svg");
+      }
+      &.linkedin{
+        background-image: url("/public/images/linked-in-logo.svg");
+      }
+    }
+  }
+}
